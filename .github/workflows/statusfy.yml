@@ -1,0 +1,13 @@
+name: "Statusfy Incident"
+on: # rebuild any PRs and main branch changes
+  issues:
+
+jobs:
+  build: # make sure build/ci work properly
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Generate incident
+      uses: devkanro/setup-statusfy@master
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
