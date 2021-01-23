@@ -1,0 +1,8 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Statusfy//statusfy.higan.me//calendar//scheduled//EN
+NAME:Demo System Status
+X-WR-CALNAME:Demo System Status
+TIMEZONE-ID:UTC
+X-WR-TIMEZONE:UTC
+END:VCALENDAR
