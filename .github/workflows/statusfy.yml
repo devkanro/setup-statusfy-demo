@@ -1,6 +1,8 @@
 name: "Statusfy Incident"
 on: # rebuild any PRs and main branch changes
+  issue_comment:
   issues:
+    types: [opened, edited, closed, reopened]
 
 jobs:
   build: # make sure build/ci work properly
