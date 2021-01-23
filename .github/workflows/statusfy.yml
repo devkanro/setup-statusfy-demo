@@ -1,16 +1,16 @@
 name: "Statusfy Incident"
-on: # rebuild any PRs and main branch changes
+on:
   issue_comment:
   issues:
     types: [opened, edited, closed, reopened]
 
 jobs:
-  build: # make sure build/ci work properly
+  build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
     - name: Generate incident
-      uses: devkanro/setup-statusfy@master
+      uses: devkanro/setup-statusfy@v1
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         branch: master
