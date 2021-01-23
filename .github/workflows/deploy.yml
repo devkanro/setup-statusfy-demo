@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build the static site.
-        run: npm run generate
+        run: npm install & npm run generate
       - name: Publish the static site to GitHub Pages.
         uses: jamesives/github-pages-deploy-action@releases/v3
         with:
