@@ -2,10 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://statusfy.higan.me</id>
     <title>Demo System Status</title>
-    <updated>2021-01-23T17:23:16.622Z</updated>
+    <updated>2021-01-29T09:44:40.940Z</updated>
     <generator>Statusfy</generator>
     <link rel="alternate" href="https://statusfy.higan.me"/>
     <link rel="self" href="https://statusfy.higan.me/feeds/incidents.en.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Test rss ]]></title>
+        <id>https://statusfy.higan.me/incidents/0e8d0e6a</id>
+        <link href="https://statusfy.higan.me/incidents/0e8d0e6a"/>
+        <updated>2021-01-29T09:43:13.000Z</updated>
+        <summary type="html"><![CDATA[Test rss ]]></summary>
+        <content type="html"><![CDATA[<p>Test rss</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Staging operations regularly timing out]]></title>
         <id>https://statusfy.higan.me/incidents/6ae1b79c</id>
