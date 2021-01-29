@@ -1,1 +1,1 @@
-{"id":"0e8d0e6a","title":"Test rss ","description":"Test rss ","date":"2021-01-29T09:43:13.000Z","modified":"2021-01-29T09:43:22.000Z","scheduled":null,"severity":"partial-outage","affectedsystems":[],"resolved":false,"content":"<p>Test rss</p>\n"}
+{"id":"0e8d0e6a","title":"Test rss ","description":"Test rss ","date":"2021-01-29T09:43:13.000Z","modified":"2021-01-29T10:20:28.000Z","scheduled":null,"severity":"major-outage","affectedsystems":["api","cdn","web"],"resolved":false,"content":"<p>Test rss</p>\n"}
