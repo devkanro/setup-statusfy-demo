@@ -4,7 +4,7 @@
         <title>Demo System Status</title>
         <link>https://statusfy.higan.me</link>
         <description></description>
-        <lastBuildDate>Sat, 15 May 2021 17:07:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 15 May 2021 17:09:32 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Statusfy</generator>
         <atom:link href="https://statusfy.higan.me/feeds/incidents.en.xml" rel="self" type="application/rss+xml"/>
@@ -21,6 +21,13 @@
             <div class="update-block-title">Update</div>
             <div class="update-block-body">
 <p>Test custom date for the update.</p>
+</div></div></div>
+<div class="update-block">
+          <div class="update-block-date">2021-05-15T17:08:19.000Z</div>
+          <div class="update-block-content">
+            <div class="update-block-title">Resolve</div>
+            <div class="update-block-body">
+<p>All works.</p>
 </div></div></div>
 ]]></content:encoded>
         </item>
