@@ -4,10 +4,19 @@
         <title>Demo System Status</title>
         <link>https://statusfy.higan.me</link>
         <description></description>
-        <lastBuildDate>Thu, 18 Mar 2021 03:00:42 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 15 May 2021 17:05:12 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Statusfy</generator>
         <atom:link href="https://statusfy.higan.me/feeds/incidents.en.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Test custom front matter]]></title>
+            <link>https://statusfy.higan.me/incidents/52de6e90</link>
+            <guid>https://statusfy.higan.me/incidents/52de6e90</guid>
+            <pubDate>Mon, 10 May 2021 11:53:21 GMT</pubDate>
+            <description><![CDATA[Test custom date for the incident.]]></description>
+            <content:encoded><![CDATA[<p>Test custom date for the incident.</p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Test rss ]]></title>
             <link>https://statusfy.higan.me/incidents/0e8d0e6a</link>

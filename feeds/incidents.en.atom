@@ -2,10 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://statusfy.higan.me</id>
     <title>Demo System Status</title>
-    <updated>2021-03-18T03:00:42.222Z</updated>
+    <updated>2021-05-15T17:05:12.004Z</updated>
     <generator>Statusfy</generator>
     <link rel="alternate" href="https://statusfy.higan.me"/>
     <link rel="self" href="https://statusfy.higan.me/feeds/incidents.en.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Test custom front matter]]></title>
+        <id>https://statusfy.higan.me/incidents/52de6e90</id>
+        <link href="https://statusfy.higan.me/incidents/52de6e90"/>
+        <updated>2021-05-10T11:53:21.000Z</updated>
+        <summary type="html"><![CDATA[Test custom date for the incident.]]></summary>
+        <content type="html"><![CDATA[<p>Test custom date for the incident.</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Test rss ]]></title>
         <id>https://statusfy.higan.me/incidents/0e8d0e6a</id>
