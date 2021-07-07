@@ -3,6 +3,8 @@ on:
   issue_comment:
   issues:
     types: [opened, edited, closed, reopened]
+    
+concurrency: build
 
 jobs:
   build:
